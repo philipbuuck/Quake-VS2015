@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\adivtab.h" />
+    <ClInclude Include="..\anorms.h" />
+    <ClInclude Include="..\anorm_dots.h" />
+    <ClInclude Include="..\bspfile.h" />
+    <ClInclude Include="..\cdaudio.h" />
+    <ClInclude Include="..\client.h" />
+    <ClInclude Include="..\cmd.h" />
+    <ClInclude Include="..\common.h" />
+    <ClInclude Include="..\conproc.h" />
+    <ClInclude Include="..\console.h" />
+    <ClInclude Include="..\crc.h" />
+    <ClInclude Include="..\cvar.h" />
+    <ClInclude Include="..\draw.h" />
+    <ClInclude Include="..\d_iface.h" />
+    <ClInclude Include="..\d_local.h" />
+    <ClInclude Include="..\input.h" />
+    <ClInclude Include="..\keys.h" />
+    <ClInclude Include="..\mathlib.h" />
+    <ClInclude Include="..\menu.h" />
+    <ClInclude Include="..\model.h" />
+    <ClInclude Include="..\modelgen.h" />
+    <ClInclude Include="..\net.h" />
+    <ClInclude Include="..\net_dgrm.h" />
+    <ClInclude Include="..\net_loop.h" />
+    <ClInclude Include="..\net_vcr.h" />
+    <ClInclude Include="..\net_wins.h" />
+    <ClInclude Include="..\net_wipx.h" />
+    <ClInclude Include="..\progdefs.h" />
+    <ClInclude Include="..\progs.h" />
+    <ClInclude Include="..\protocol.h" />
+    <ClInclude Include="..\pr_comp.h" />
+    <ClInclude Include="..\quakedef.h" />
+    <ClInclude Include="..\render.h" />
+    <ClInclude Include="..\resource.h" />
+    <ClInclude Include="..\r_local.h" />
+    <ClInclude Include="..\r_shared.h" />
+    <ClInclude Include="..\sbar.h" />
+    <ClInclude Include="..\screen.h" />
+    <ClInclude Include="..\server.h" />
+    <ClInclude Include="..\sound.h" />
+    <ClInclude Include="..\spritegn.h" />
+    <ClInclude Include="..\sys.h" />
+    <ClInclude Include="..\vid.h" />
+    <ClInclude Include="..\view.h" />
+    <ClInclude Include="..\wad.h" />
+    <ClInclude Include="..\winquake.h" />
+    <ClInclude Include="..\world.h" />
+    <ClInclude Include="..\zone.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\progdefs.q1" />
+    <None Include="..\progdefs.q2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\quake.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\winquake.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cd_win.c" />
+    <ClCompile Include="..\chase.c" />
+    <ClCompile Include="..\cl_demo.c" />
+    <ClCompile Include="..\cl_input.c" />
+    <ClCompile Include="..\cl_main.c" />
+    <ClCompile Include="..\cl_parse.c" />
+    <ClCompile Include="..\cl_tent.c" />
+    <ClCompile Include="..\cmd.c" />
+    <ClCompile Include="..\common.c" />
+    <ClCompile Include="..\conproc.c" />
+    <ClCompile Include="..\console.c" />
+    <ClCompile Include="..\crc.c" />
+    <ClCompile Include="..\cvar.c" />
+    <ClCompile Include="..\draw.c" />
+    <ClCompile Include="..\d_edge.c" />
+    <ClCompile Include="..\d_fill.c" />
+    <ClCompile Include="..\d_init.c" />
+    <ClCompile Include="..\d_modech.c" />
+    <ClCompile Include="..\d_part.c" />
+    <ClCompile Include="..\d_polyse.c" />
+    <ClCompile Include="..\d_scan.c" />
+    <ClCompile Include="..\d_sky.c" />
+    <ClCompile Include="..\d_sprite.c" />
+    <ClCompile Include="..\d_surf.c" />
+    <ClCompile Include="..\d_vars.c" />
+    <ClCompile Include="..\d_zpoint.c" />
+    <ClCompile Include="..\host.c" />
+    <ClCompile Include="..\host_cmd.c" />
+    <ClCompile Include="..\in_win.c" />
+    <ClCompile Include="..\keys.c" />
+    <ClCompile Include="..\mathlib.c" />
+    <ClCompile Include="..\menu.c" />
+    <ClCompile Include="..\model.c" />
+    <ClCompile Include="..\net_dgrm.c" />
+    <ClCompile Include="..\net_loop.c" />
+    <ClCompile Include="..\net_main.c" />
+    <ClCompile Include="..\net_vcr.c" />
+    <ClCompile Include="..\net_win.c" />
+    <ClCompile Include="..\net_wins.c" />
+    <ClCompile Include="..\net_wipx.c" />
+    <ClCompile Include="..\nonintel.c" />
+    <ClCompile Include="..\pr_cmds.c" />
+    <ClCompile Include="..\pr_edict.c" />
+    <ClCompile Include="..\pr_exec.c" />
+    <ClCompile Include="..\r_aclip.c" />
+    <ClCompile Include="..\r_alias.c" />
+    <ClCompile Include="..\r_bsp.c" />
+    <ClCompile Include="..\r_draw.c" />
+    <ClCompile Include="..\r_edge.c" />
+    <ClCompile Include="..\r_efrag.c" />
+    <ClCompile Include="..\r_light.c" />
+    <ClCompile Include="..\r_main.c" />
+    <ClCompile Include="..\r_misc.c" />
+    <ClCompile Include="..\r_part.c" />
+    <ClCompile Include="..\r_sky.c" />
+    <ClCompile Include="..\r_sprite.c" />
+    <ClCompile Include="..\r_surf.c" />
+    <ClCompile Include="..\r_vars.c" />
+    <ClCompile Include="..\sbar.c" />
+    <ClCompile Include="..\screen.c" />
+    <ClCompile Include="..\snd_dma.c" />
+    <ClCompile Include="..\snd_mem.c" />
+    <ClCompile Include="..\snd_mix.c" />
+    <ClCompile Include="..\snd_win.c" />
+    <ClCompile Include="..\sv_main.c" />
+    <ClCompile Include="..\sv_move.c" />
+    <ClCompile Include="..\sv_phys.c" />
+    <ClCompile Include="..\sv_user.c" />
+    <ClCompile Include="..\sys_win.c" />
+    <ClCompile Include="..\vid_win.c" />
+    <ClCompile Include="..\view.c" />
+    <ClCompile Include="..\wad.c" />
+    <ClCompile Include="..\world.c" />
+    <ClCompile Include="..\zone.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{87E925C1-B432-40F1-B480-704ACB37EC2A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HandmadeQuake</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\scitech\INCLUDE;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\scitech\lib\win32\vc\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\scitech\INCLUDE;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\scitech\lib\win32\vc\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <DisableSpecificWarnings>4244;4018;4101;4715;4305</DisableSpecificWarnings>
+      <MinimalRebuild />
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Winmm.lib;DXGUID.LIB;wsock32.lib;mgllt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libc.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions);CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <DisableSpecificWarnings>4244;4018;4101;4715;4305</DisableSpecificWarnings>
+      <MinimalRebuild />
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Winmm.lib;DXGUID.LIB;wsock32.lib;mgllt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libc.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions);CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
